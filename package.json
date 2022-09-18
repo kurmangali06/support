@@ -8,7 +8,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build && serve -s build -l 4000",
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build && serve -s build ",
     "start": "node backend/server.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
