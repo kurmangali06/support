@@ -1,10 +1,12 @@
 {
   "name": "chats-react",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.16.0"
+  },
   "type": "module",
   "description": "",
   "main": "index.js",
-  "homepage": "",
   "scripts": {
     "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build && serve -s build -l 4000",
     "start": "node backend/server.mjs",
